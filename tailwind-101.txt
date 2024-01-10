@@ -1,0 +1,14 @@
+Tailwind CSS
+
+What is a CSS preprocessor ?  A pre processor is a tool that is used to enhance the features of CSS by introducing features that are not part of the CSS spec.
+They then process these styles to output standard CSS that the browsers understand.
+
+What is POST CSS ?
+
+Post CSS is not a CSS pre processor.
+PostCSS transforms the existing CSS using various plugins. These plugins can perform tasks such as adding vendor prefixes, linting, minification, and more. 
+The transformation occurs after the original CSS has been written, hence the term "post."
+
+Unlike traditional preprocessors that introduce a new syntax (like Sass or Less), PostCSS doesn't have its own syntax.
+
+It's a post-processor because it comes into play after the initial CSS has been authored, whether manually or using a preprocessor like Sass, Less, or Stylus.

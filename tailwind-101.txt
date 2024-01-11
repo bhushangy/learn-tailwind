@@ -1,6 +1,6 @@
 Tailwind CSS
 
-What is a CSS preprocessor ?  A pre processor is a tool that is used to enhance the features of CSS by introducing features that are not part of the CSS spec.
+What is a CSS preprocessor ?A pre processor is a tool that is used to enhance the features of CSS by introducing features that are not part of the CSS spec.
 They then process these styles to output standard CSS that the browsers understand.
 
 What is POST CSS ?

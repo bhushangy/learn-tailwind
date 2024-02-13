@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In Tailwind CSS, these lines are directives that specify which parts of the framework you want to import into your CSS: 
+
+    @tailwind base: This directive imports the base layer of Tailwind styles. This includes:
+        Preflight: CSS that resets browser defaults and establishes a consistent baseline for different browsers and devices.
+        Base styles: Default styles applied to common HTML elements like paragraphs, headings, and lists.
+    @tailwind components: This directive imports the component layer of Tailwind styles. This includes pre-built component classes like buttons, forms, and cards. These components are meant to be flexible and customizable, allowing you to easily style common UI elements without writing a lot of custom CSS.
+    @tailwind utilities: This directive imports the utility layer of Tailwind styles. This is the core of Tailwind and includes numerous small, single-purpose classes for styling various aspects of your elements, such as padding, margin, color, fonts, and more. These utilities are designed to be combined and layered to achieve the exact styles you need.
+
+By importing these different layers, you can control which parts of Tailwind you want to use in your project. This allows for a more modular approach to styling and can help keep your CSS organized and efficient.
+
+Here are some additional things to consider:
+
+    The order of these directives matters. Typically, @tailwind base goes first, followed by @tailwind components and then @tailwind utilities. This ensures that base styles and component styles are available when applying utility classes.
+    You can customize these directives by adding options, such as excluding specific utilities or component variants.
+    You can also add your own custom CSS anywhere in your CSS file, and it will be included in the final compiled output.
+*/
